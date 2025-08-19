@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Need for Speed - Racing Passion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            color: #fff;
+        }
+        header {
+            background: #111;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            margin: 0;
+            color: #ffcc00;
+            text-shadow: 2px 2px 8px #000;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #ffcc00;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(34, 34, 34, 0.85);
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+        }
+        h2 {
+            color: #ffcc00;
+            margin-top: 0;
+        }
+        .gallery {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 220px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            border: 2px solid #ffcc00;
+            background: #222;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #111;
+            color: #aaa;
+            margin-top: 2rem;
+            font-size: 0.95rem;
+            border-top: 1px solid #333;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            .gallery img {
+                width: 100%;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Need for Speed</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#games">Games</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
+    <div class="container" id="about">
+        <h2>About Need for Speed</h2>
+        <p>
+            Need for Speed is a legendary racing video game franchise known for its thrilling street races, exotic cars, and high-speed police chases. Since its debut in 1994, it has captured the hearts of racing enthusiasts worldwide, offering adrenaline-pumping gameplay and stunning visuals.
+        </p>
+    </div>
+    <div class="container" id="games">
+        <h2>Popular Games</h2>
+        <ul>
+            <li>Need for Speed: Most Wanted</li>
+            <li>Need for Speed: Underground</li>
+            <li>Need for Speed: Hot Pursuit</li>
+            <li>Need for Speed: Carbon</li>
+            <li>Need for Speed: Heat</li>
+        </ul>
+    </div>
+    <div class="container" id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=400&q=80" alt="Racing Car 1">
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Racing Car 2">
+            <img src="https://images.unsplash.com/photo-1511918984145-48de785d4c4e?auto=format&fit=crop&w=400&q=80" alt="Racing Car 3">
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Need for Speed Fan Page. All rights reserved.
+    </footer>
+</body>
+</html>
